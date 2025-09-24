@@ -3,7 +3,7 @@
 # Author: Praveen Babu
 # Date: $(date)
 
-INSTANCE_ID="i-093e5b6a3fead3ff2"   # Replace with your EC2 instance ID
+INSTANCE_ID="i-093e5b6a3fead3ff2"
 ALARM_NAME="HighCPUAlarm"
 SNS_TOPIC_NAME="DevOpsAlerts"
 
