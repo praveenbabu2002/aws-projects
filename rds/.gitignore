@@ -1,0 +1,9 @@
+# Ignore AWS credentials & environment files
+*.pem
+.env
+credentials
+aws_credentials.txt
+
+# Ignore system files
+.DS_Store
+*.log
