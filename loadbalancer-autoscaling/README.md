@@ -35,4 +35,17 @@ VPC_ID="vpc-0413f00473d65bf18"
 SUBNET1_ID="subnet-02c94c6a4c7457772" 
 SUBNET2_ID="subnet-068bfe729a9a6fbe1"
 KEY_NAME="my-key"
-# ...
+~---
+
+## 🖼️ Project Screenshots
+
+### 1️⃣ Auto Scaling Group Overview
+![Auto Scaling Group](./screenshots/asg_overview.png)
+
+### 2️⃣ Load Balancer DNS
+![Load Balancer DNS](./screenshots/loadbalancer_dns.png)
+
+### 3️⃣ EC2 Instances Launched by ASG
+![EC2 Instances](./screenshots/ec2_instances.png)
+
+---~
