@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    stages {
+        stage('Clone Repo') {
+            steps {
+                git 'https://github.com/praveenbabu2002/aws-projects.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Simulating build process...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Simulating test process...'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Simulating deployment success!'
+            }
+        }
+    }
+}
