@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "example-upload-bucket"
+        },
+        "object": {
+          "key": "sample-file.txt"
+        }
+      }
+    }
+  ]
+}
